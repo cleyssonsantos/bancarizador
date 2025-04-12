@@ -35,6 +35,10 @@ A aplicação segue os princípios da **Clean Architecture** e utiliza o **Adapt
 
 ---
 
-## ⚙️ Como Rodar o Projeto
+## Como Rodar o Projeto
 
 - **Em desenvolvimento**: uvicorn main:app --reload
+
+## Como Rodar os Testes
+
+- coverage run -m pytest
