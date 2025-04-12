@@ -1,0 +1,1 @@
+# Serve para configurar a autenticação que esse bancarizador usa
