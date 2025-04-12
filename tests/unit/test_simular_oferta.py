@@ -1,6 +1,6 @@
 from unittest.mock import Mock
-from src.domain.dto.oferta_dto import SimularOfertaRequestDTO
-from src.domain.use_cases.simular_oferta import SimularOfertaUseCase
+from src.domain.dto.oferta_simular import SimularOfertaRequestDTO
+from src.domain.use_cases.oferta_simular import SimularOfertaUseCase
 
 def test_simulacao_unitaria_qitech():
     adapter_mock = Mock()

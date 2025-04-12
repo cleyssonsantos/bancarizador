@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from src.controllers import bancarizador_controller
+from src.routes.oferta import viewer
 
 app = FastAPI(
     title="Bancarizador API",
@@ -7,4 +7,4 @@ app = FastAPI(
     version="1.0.0"
 )
 
-app.include_router(bancarizador_controller.router, prefix="/v1")
+app.include_router(viewer.router, prefix="/api/v1")

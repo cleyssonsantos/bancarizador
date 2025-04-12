@@ -11,3 +11,5 @@ class SimularOfertaRequestDTO(BaseModel):
 class SimularOfertasResponseDTO(BaseModel):
     valor_parcela: Decimal
     taxa_efetiva: float
+
+

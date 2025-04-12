@@ -1,4 +1,4 @@
-from src.domain.dto.oferta_dto import SimularOfertaRequestDTO, SimularOfertasResponseDTO
+from src.domain.dto.oferta_simular import SimularOfertaRequestDTO, SimularOfertasResponseDTO
 from src.domain.models.oferta import Oferta
 from src.domain.ports.bancarizador_port import BancarizadorPort
 

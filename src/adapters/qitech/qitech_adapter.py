@@ -16,3 +16,5 @@ class QitechAdapter(BancarizadorPort):
             "valor_parcela": response["installment_amount"],
             "taxa": response["effective_rate"]
         }
+
+    def confirmar_oferta(self): ...

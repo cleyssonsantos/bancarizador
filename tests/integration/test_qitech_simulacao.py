@@ -1,5 +1,5 @@
-from src.infrastructure.adapters.qitech.qitech_adapter import QitechAdapter
-from src.domain.dto.oferta_dto import SimularOfertaRequestDTO
+from src.adapters.qitech.qitech_adapter import QitechAdapter
+from src.domain.dto.oferta_simular import SimularOfertaRequestDTO
 
 def test_qitech_adapter():
     adapter = QitechAdapter()

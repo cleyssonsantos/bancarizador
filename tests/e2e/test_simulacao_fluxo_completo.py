@@ -1,7 +1,7 @@
 from fastapi.testclient import TestClient
 from main import app
 
-PREFIX = "/v1"
+PREFIX = "/api/v1"
 client = TestClient(app)
 
 def test_fluxo_simulacao_e2e():
